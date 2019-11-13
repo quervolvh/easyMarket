@@ -1,22 +1,71 @@
-.App {
-  text-align: center;
+body{
+	font-family: 'Fira Sans', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
+.input_text{
+	height: 50px;
+    width: 300px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.login_wrapper{
+	margin: 5px;
 }
-
-.App-link {
-  color: #09d3ac;
+#Login{
+	display: flex;
+	justify-content: center;
+}
+.button_des{
+	height: 60px;
+    width: 145px;
+    border: 2px solid;
+    border-radius: 10px;
+    background: black;
+    padding-left: 10px;
+    color: white;
+    padding-right: 10px;
+    margin-top: 15px;
+    text-align: left;
+}
+#Header{
+	display: flex;
+	place-content: center;
+}
+.top_left{
+	height: 50px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-image: url(images/logo.svg);
+    margin: 10px;
+    background-size: contain;
+}
+.top_right{
+	display: flex;
+    flex-direction: row;
+    margin: 10px;
+    display: none;
+}
+.cart{
+	height: 50px;
+    width: 43px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /*background-image: url(images/sale-bag-svgrepo-com.svg);*/
+}
+.logout{
+	display: flex;
+}
+.user{
+	width: 60px;
+    background-image: url(images/user.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.logout .button_des{
+	margin-top: 0px;
+	height: 50px;
+}
+input:focus, .button_des:focus{
+	outline:none;
 }
