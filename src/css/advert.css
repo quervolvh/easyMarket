@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans&display=swap');
+.bigOffer{
+    display: flex;
+    height: 100%;
+    background: #b5e5f2;
+}
+.offer{
+    background: #b5e5f2;
+    min-height: 220px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.offerImage{
+    width: 53%;
+    background-image: url(/static/media/blue-shirt.f7bd4002.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.offerText{
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 20px;
+    width: 60%;
+    padding-left: 30px;
+    color: #2e3e50;
+    height: max-content;
+    font-weight: bold;
+    /* align-self: center; */
+}
+.offerLeft{
+    background: black;
+    width: 50%;
+    /* min-width: 40%; */
+}
+.offerRight{
+    background: #b5e5f2;
+    width: 50%;
+    /* min-width: 25%; */
+}
+.click{
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    width: 100px;
+    border: none;
+    background: #2e3e50;
+    padding-left: 10px;
+    color: white;
+    padding-right: 10px;
+    text-align: left;
+    letter-spacing: 0.1rem;
+}
+.offerRight .offerText{
+    width: auto;
+    margin-top: 20px;
+    margin-left: 0px;
+    color: #2e3e50;
+    margin-left: 6.5%;
+}
+.offerRight .offerText p{
+    margin: 0px;
+}
+.imageGroup{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 6.5%;
+    padding-left: 30px;
+}
+.layImage{
+    margin-top: 20px;
+    height:50px;
+    width: 43px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 5%;
+}
+.ig1{
+    background-image: url(../images/groceries.svg);
+    width: 20px;
+}
+.ig2{
+    background-image: url(../images/tv.svg);
+    width: 20px;
+}
+.ig4{
+    margin-top: 0;
+    height: 65px;
+    background-image: url(../images/shoe.svg);
+}
+.ig3{
+    background-image: url(../images/exported/computer.svg);
+    width: 20px;
+}
+.ig5{
+    margin-top: 0;
+    background-image: url(../images/exported/gamepad.svg);
+}
+.ig6{
+    margin-top: 0;
+    height: 65px;
+    background-image: url(../images/exported//radio.svg);
+}
+.ig7{
+    width: 20px;
+    background-image: url(../images/exported/kitchen.svg);
+}
+.ig8{
+    width: 20px;
+    height: 65px;
+    background-image: url(../images/exported/dumbbell.svg);
+}
+.ig9{
+    width: 20px;
+    background-image: url(../images/exported/medicine.svg);
+}
+
+@media only screen and (max-width:700px){
+    .offer{
+        display: block;
+    }
+    .offerLeft{
+        width: 100%;
+    }
+    .offerText{
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .click{
+        height: 52px;
+        width: 154px;
+        margin: 0px auto;
+    }
+    .offerRight{
+        width: 100%;
+    }
+    .layImage, .ig1, .ig2, .ig3, .ig4, .ig5, .ig6, .ig7, .ig8, .ig9{
+        height: 65px;
+        margin-top: 0;
+        width: 36px;
+        margin-right: 0px;
+        
+    }
+    .offerRight .offerText{
+        margin-left: 0;
+    }
+    .imageGroup{
+        padding-left: 0px;
+        margin-right: 6.6%;
+        justify-content: space-around;
+    }
+
+}
