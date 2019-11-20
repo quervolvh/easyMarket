@@ -1,8 +1,10 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 export function Login() {
     return (
         <div id='Login'>
-            <div>
+            <div id='login_div'>
                 <div className='login_wrapper'>
                     <p> username </p>
                     <input className='input_text' type="text" name="username" />
@@ -12,7 +14,7 @@ export function Login() {
                     <input className='input_text' type="password" name="username" />
                 </div>
                 <div className='login_wrapper'>
-                    <button className='button_des'> login </button>
+                <Link to="/home"> <button className='button_des'> Login </button> </Link>
                 </div>
             </div>
         </div>

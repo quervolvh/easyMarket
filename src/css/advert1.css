@@ -1,0 +1,28 @@
+#MoreHomeScreenProducts{
+    display: flex;
+    display: none;
+    background: black;
+    justify-content: center;
+}
+.blocShaded{
+    width: 40%;
+    background: radial-gradient(86.94% 263.61% at 96.08% 15.9%, rgba(0, 25, 88, 0) 0%, #000000 100%);
+    background-color: black;
+    text-align: center;
+    height: 190px;
+}
+.blocShaded p{
+    margin: 0px;
+    color: blue;
+    background: red;
+    font-size: 15px;
+}
+.blocUnshaded{
+    width: 40%;
+    height: 190px;
+}
+.fruity{
+    height: 96%;
+    width: 100%;
+    object-fit: scale-down;
+}
